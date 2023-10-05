@@ -1,3 +1,8 @@
+Autilizando o Repositório:
+Git add .
+Git commit -m "exemplo de atualização"
+Git push -u origin main
+
 # AngularBlog
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.

@@ -1,0 +1,9 @@
+@media screen and (max-width:600px) {
+  .container_menu-title > h1{
+    font-size: 30px;
+    margin-top:  5px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+}
