@@ -2,7 +2,7 @@
 
   <div class="container_small-card-content">
     <div class="small-card_photo">
-      <img
+      <img [routerLink]="['content', Id]"
         src="{{ photoCover }}"
         alt=""
         srcset=""
@@ -13,7 +13,7 @@
 
 
     <div class="small-card_title">
-      <h1><a href="#">{{ cardTitle }} </a></h1>
+      <h1><a [routerLink]="['content', Id]" >{{ cardTitle }} </a></h1>
     </div>
   </div>
 
